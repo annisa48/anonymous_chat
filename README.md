@@ -414,9 +414,7 @@ sudo dnf update -y
 # Install Node.js
 sudo dnf module install nodejs:
 ---
-
-## 
-
+##
 ```
 ## 🔧 Configuration
 

@@ -403,10 +403,10 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Token bot (ganti dengan token bot Anda)
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = "8137029943:AAHBKhjI42Rk6AAJMd0nJ7JzDsez9TZQbKg"
 
 # ID Admin (ganti dengan user ID admin)
-ADMIN_IDS = [123456789, 987654321]  # Tambahkan ID admin di sini
+ADMIN_IDS = [7466357779]  # Tambahkan ID admin di sini
 
 # Database in-memory
 class Database:

@@ -1,3 +1,22 @@
+import asyncio
+import logging
+import random
+import string
+from datetime import datetime, timedelta
+from typing import Dict, Set, Optional, List
+import hashlib
+
+from aiogram import Bot, Dispatcher, F
+from aiogram.types import (
+    Message, CallbackQuery, InlineKeyboardMarkup, 
+    InlineKeyboardButton, BotCommand, ChatMemberUpdated
+)
+from aiogram.filters import Command, CommandStart
+from aiogram.exceptions import TelegramBadRequest
+from aiogram.fsm.context import FSMContext
+from aiogram.fsm.state import State, StatesGroup
+from aiogram.fsm.storage.memory import MemoryStorage
+
 # Enhanced admin handlers with more features
 @dp.callback_query(F.data.startswith("admin_"))
 async def admin_handlers(callback: CallbackQuery):

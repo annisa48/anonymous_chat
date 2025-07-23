@@ -274,7 +274,7 @@ Distributed under MIT License. See `LICENSE` for more information.
 
 ## 🙋‍♂️ Support
 
-- **Issues**: [GitHub Issues](https://github.com/annisa48/anonymous-chat/issues)
+- **Issues**: [GitHub Issues](https://github.com/annisa48/anonymous_chat/issues)
 - **Telegram**: @annisa401
 - **Email**: annisa48@gmail.com
 

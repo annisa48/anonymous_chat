@@ -109,16 +109,20 @@ async def admin_handlers(callback: CallbackQuery):
         await callback.message.edit_text(reports_text, reply_markup=reports_keyboard, parse_mode="HTML")
     
     elif action == "broadcast":
-        await callback.message.edit_text(
-            "📢 <b>Broadcast Message</b>\n\n"
-            "⚠️ <b>Warning:</b> Broadcast akan dikirim ke semua user!\n"
-            "Gunakan fitur ini dengan bijak.\n\n"
-            "💡 <b>Tips:</b>\n"
-            "• Gunakan untuk pengumuman penting\n"
-            "• Hindari spam atau promotional content\n"
-            "• Maksimal 1 broadcast per hari\n\n"
-            "Ketik pesan broadcast Anda sekarang:",
-            reply_markup=InlineKeyboardMarkup(inline_import asyncio
+    await callback.message.edit_text(
+        "📢 <b>Broadcast Message</b>\n\n"
+        "⚠️ <b>Warning:</b> Broadcast akan dikirim ke semua user!\n"
+        "Gunakan fitur ini dengan bijak.\n\n"
+        "💡 <b>Tips:</b>\n"
+        "• Gunakan untuk pengumuman penting\n"
+        "• Hindari spam atau promotional content\n"
+        "• Maksimal 1 broadcast per hari\n\n"
+        "Ketik pesan broadcast Anda sekarang:",
+        reply_markup=InlineKeyboardMarkup(keyboard),
+        parse_mode="HTML"
+    )
+
+import asyncio
 import logging
 import random
 import string

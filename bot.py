@@ -404,7 +404,8 @@ def get_user_achievements(user_data, user_stats):
     return '\n'.join(f"• {achievement}" for achievement in achievements[:5]) if achievements else "• 🌱 New Member"
 
 # Command handlers
-@dp.message(CommandStart())
+@dp.message_handler(commands=['start'])
+async def start(message: types.Message):
     user_id = message.from_user.id
     
     if db.is_banned(user_id):

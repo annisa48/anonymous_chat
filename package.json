@@ -17,7 +17,7 @@
     "multi-language",
     "social"
   ],
-  "author": "github.com/annisa48/anonymous_chat",
+  "author": "annisa48",
   "license": "MIT",
   "dependencies": {
     "node-telegram-bot-api": "^0.64.0"

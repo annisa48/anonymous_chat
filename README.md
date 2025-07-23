@@ -414,8 +414,3 @@ sudo dnf update -y
 # Install Node.js
 sudo dnf module install nodejs:
 ---
-
-###**Made with ❤️ for the Telegram community**###
-
-> ⚠️ **Disclaimer**: Bot ini untuk tujuan edukasi. Pastikan mematuhi Terms of Service Telegram dan hukum setempat.
-####

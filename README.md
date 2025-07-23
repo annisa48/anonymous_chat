@@ -414,3 +414,147 @@ sudo dnf update -y
 # Install Node.js
 sudo dnf module install nodejs:
 ---
+
+
+
+
+# 🎭 Anonymous Chat Telegram Bot
+
+[![Deploy](https://github.com/yourusername/anonymous-chat-bot/workflows/🚀%20Deploy%20Bot/badge.svg)](https://github.com/yourusername/anonymous-chat-bot/actions)
+[![Test](https://github.com/yourusername/anonymous-chat-bot/workflows/🧪%20Test%20Bot/badge.svg)](https://github.com/yourusername/anonymous-chat-bot/actions)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=yourusername_anonymous-chat-bot&metric=alert_status)](https://sonarcloud.io/dashboard?id=yourusername_anonymous-chat-bot)
+[![Docker Pulls](https://img.shields.io/docker/pulls/yourusername/anonymous-chat-bot)](https://hub.docker.com/r/yourusername/anonymous-chat-bot)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+> 🚀 **Advanced Anonymous Chat Bot for Telegram with Smart Matching Algorithm**
+
+A feature-rich Telegram bot that connects users anonymously for 1-on-1 chats with intelligent matching based on interests, age groups, and compatibility scores.
+
+## 🌟 Features
+
+### 🔥 Core Features
+- **Anonymous 1-on-1 Chat** - Connect with strangers safely
+- **Smart Matching Algorithm** - Find compatible partners based on:
+  - Age groups (Teen, Young Adult, Adult, Mature)
+  - Shared interests (Music, Gaming, Tech, Sports, etc.)
+  - Compatibility scoring system
+- **Multi-media Support** - Text, photos, stickers, voice messages
+- **Real-time Chat** - Instant message forwarding with typing simulation
+- **User Privacy** - No personal information shared
+
+### 🎯 Advanced Features
+- **Profile System** - Customizable user profiles
+- **Block & Report System** - Safety mechanisms
+- **Statistics Tracking** - Personal chat statistics
+- **Achievement System** - Gamification elements
+- **Queue Management** - Intelligent waiting system
+- **Admin Dashboard** - Bot management tools
+
+### 🛡️ Safety Features
+- **Anonymous Chat** - No personal info exposure
+- **User Blocking** - Block unwanted users
+- **Report System** - Report inappropriate behavior
+- **Admin Monitoring** - Real-time moderation
+- **Rate Limiting** - Prevent spam and abuse
+
+## 🚀 Quick Start
+
+### 3. Local Development
+
+```bash
+# Clone repository
+git clone https://github.com/annisa48/anonymous_chat.git
+cd anonymous-chat-bot
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure environment
+cp .env.example .env
+# Edit .env with your bot token
+
+# Run bot
+python bot.py
+```
+
+## 🔧 Configuration
+
+### Required Environment Variables
+
+```bash
+BOT_TOKEN=your_bot_token_from_botfather
+ADMIN_ID=your_telegram_user_id
+```
+
+### Optional Environment Variables
+
+```bash
+WEBHOOK_URL=https://yourapp.herokuapp.com/webhook
+PORT=8000
+REDIS_URL=redis://localhost:6379
+DATABASE_URL=sqlite:///bot_data.db
+LOG_LEVEL=INFO
+```
+
+## 📊 Bot Commands
+
+| Command | Description |
+|---------|-------------|
+| `/start` | Start the bot and show main menu |
+| `/help` | Show help and FAQ |
+| `/stats` | Show your statistics |
+| `/admin` | Admin panel (admin only) |
+
+## 🎮 How to Use
+
+1. **Start the bot** - Send `/start` to begin
+2. **Setup profile** - Choose gender, age group, and interests
+3. **Find partner** - Bot matches you with compatible users
+4. **Start chatting** - Send messages anonymously
+5. **End or switch** - Use buttons to control your chat
+
+## 🏗️ Architecture
+
+```
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   Telegram API  │◄──►│   Bot Handler   │◄──►│  Data Storage   │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+                              │
+                              ▼
+                    ┌─────────────────┐
+                    │ Matching Engine │
+                    └─────────────────┘
+                              │
+                              ▼
+                    ┌─────────────────┐
+                    │  Chat Manager   │
+                    └─────────────────┘
+```
+
+## 🔄 Deployment Options
+
+### 🌐 Cloud Platforms
+
+| Platform | Pros | Cons | Cost |
+|----------|------|------|------|
+| **Heroku** | Easy setup, Free tier | Limited hours | Free/Paid |
+| **Railway** | Modern, Git-based | Newer platform | Free/Paid |
+| **DigitalOcean** | Reliable, Scalable | Requires setup | Paid |
+| **AWS** | Enterprise-grade | Complex setup | Paid |
+
+### 🐳 Docker Deployment
+
+```bash
+# Build and run with Docker
+docker build -t anonymous-chat .
+docker run -d --name chatbot -p 8000:8000 anonymous-chat
+
+# Or use Docker Compose
+docker-compose up -d
+```
+
+### 🖥️ VPS Deployment
+
+```bash
+# Clone and setup
+git clone https://github.com/annisa48/anonymous_chat.git

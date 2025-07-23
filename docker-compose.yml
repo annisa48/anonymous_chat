@@ -1,0 +1,20 @@
+# docker-compose.yml (for Docker)
+version: '3.8'
+
+services:
+  anonymous-bot:
+    build: .
+    container_name: anonymous-chat-bot
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - BOT_TOKEN=${BOT_TOKEN}
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    networks:
+      - bot-network
+
+networks:
+  bot-network:
+    driver: bridge

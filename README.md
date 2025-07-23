@@ -41,8 +41,8 @@ Bot Telegram canggih untuk chat anonim dengan fitur lengkap, multi-bahasa, dan s
 
 1. **Clone Repository**
 ```bash
-git clone https://github.com/your-username/anonymous-chat-bot.git
-cd anonymous-chat-bot
+git clone https://github.com/annisa48/anonymous_chat.git
+cd anonymous-chat
 ```
 
 2. **Install Dependencies**
@@ -274,9 +274,9 @@ Distributed under MIT License. See `LICENSE` for more information.
 
 ## 🙋‍♂️ Support
 
-- **Issues**: [GitHub Issues](https://github.com/your-username/anonymous-chat-bot/issues)
-- **Telegram**: @yourusername
-- **Email**: your.email@example.com
+- **Issues**: [GitHub Issues](https://github.com/annisa48/anonymous-chat/issues)
+- **Telegram**: @annisa401
+- **Email**: annisa48@gmail.com
 
 ## 🎯 Roadmap
 
@@ -331,8 +331,8 @@ Panduan lengkap untuk deploy bot Telegram Anonymous Chat dengan berbagai platfor
 ### 3. Persiapkan File
 ```bash
 # Clone atau download source code
-git clone https://github.com/your-username/anonymous-chat-bot.git
-cd anonymous-chat-bot
+git clone https://github.com/annisa48/anonymous_chat.git
+cd anonymous-chat
 
 # Edit konfigurasi
 nano bot.js
@@ -368,8 +368,8 @@ sudo usermod -aG sudo botuser
 su - botuser
 
 # Upload bot files
-git clone https://github.com/your-username/anonymous-chat-bot.git
-cd anonymous-chat-bot
+git clone https://github.com/annisa48/anonymous_chat.git
+cd anonymous-chat
 
 # Install dependencies
 npm install

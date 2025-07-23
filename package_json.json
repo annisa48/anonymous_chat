@@ -1,0 +1,39 @@
+{
+  "name": "anonymous-chat-telegram-bot",
+  "version": "2.0.0",
+  "description": "Advanced anonymous chat bot for Telegram with multi-language support, VIP system, and advanced matching",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "anonymous",
+    "chat",
+    "nodejs",
+    "multi-language",
+    "social"
+  ],
+  "author": "Anonymous Chat Bot Developer",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/anonymous-chat-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/anonymous-chat-bot/issues"
+  },
+  "homepage": "https://github.com/your-username/anonymous-chat-bot#readme"
+}

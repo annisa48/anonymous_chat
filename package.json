@@ -30,10 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/anonymous-chat-bot.git"
+    "url": ".git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/anonymous-chat-bot/issues"
+    "url": "github.com/annisa48/anonymous_chat/issues"
   },
-  "homepage": "https://github.com/your-username/anonymous-chat-bot#readme"
+  "homepage": "github.com/annisa48/anonymous_chat#readme"
 }

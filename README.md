@@ -415,68 +415,9 @@ sudo dnf update -y
 sudo dnf module install nodejs:
 ---
 
+## 
 
-
-
-# 🎭 Anonymous Chat Telegram Bot
-
-[![Deploy](https://github.com/yourusername/anonymous-chat-bot/workflows/🚀%20Deploy%20Bot/badge.svg)](https://github.com/yourusername/anonymous-chat-bot/actions)
-[![Test](https://github.com/yourusername/anonymous-chat-bot/workflows/🧪%20Test%20Bot/badge.svg)](https://github.com/yourusername/anonymous-chat-bot/actions)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=yourusername_anonymous-chat-bot&metric=alert_status)](https://sonarcloud.io/dashboard?id=yourusername_anonymous-chat-bot)
-[![Docker Pulls](https://img.shields.io/docker/pulls/yourusername/anonymous-chat-bot)](https://hub.docker.com/r/yourusername/anonymous-chat-bot)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-> 🚀 **Advanced Anonymous Chat Bot for Telegram with Smart Matching Algorithm**
-
-A feature-rich Telegram bot that connects users anonymously for 1-on-1 chats with intelligent matching based on interests, age groups, and compatibility scores.
-
-## 🌟 Features
-
-### 🔥 Core Features
-- **Anonymous 1-on-1 Chat** - Connect with strangers safely
-- **Smart Matching Algorithm** - Find compatible partners based on:
-  - Age groups (Teen, Young Adult, Adult, Mature)
-  - Shared interests (Music, Gaming, Tech, Sports, etc.)
-  - Compatibility scoring system
-- **Multi-media Support** - Text, photos, stickers, voice messages
-- **Real-time Chat** - Instant message forwarding with typing simulation
-- **User Privacy** - No personal information shared
-
-### 🎯 Advanced Features
-- **Profile System** - Customizable user profiles
-- **Block & Report System** - Safety mechanisms
-- **Statistics Tracking** - Personal chat statistics
-- **Achievement System** - Gamification elements
-- **Queue Management** - Intelligent waiting system
-- **Admin Dashboard** - Bot management tools
-
-### 🛡️ Safety Features
-- **Anonymous Chat** - No personal info exposure
-- **User Blocking** - Block unwanted users
-- **Report System** - Report inappropriate behavior
-- **Admin Monitoring** - Real-time moderation
-- **Rate Limiting** - Prevent spam and abuse
-
-## 🚀 Quick Start
-
-### 3. Local Development
-
-```bash
-# Clone repository
-git clone https://github.com/annisa48/anonymous_chat.git
-cd anonymous-chat-bot
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Configure environment
-cp .env.example .env
-# Edit .env with your bot token
-
-# Run bot
-python bot.py
 ```
-
 ## 🔧 Configuration
 
 ### Required Environment Variables

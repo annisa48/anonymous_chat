@@ -118,8 +118,8 @@ async def admin_handlers(callback: CallbackQuery):
             "• Hindari spam atau promotional content\n"
             "• Maksimal 1 broadcast per hari\n\n"
             "Ketik pesan broadcast Anda sekarang:",
+            parse_mode="HTML",
             reply_markup=InlineKeyboardMarkup(keyboard),
-            parse_mode="HTML"
         )
 
 import asyncio

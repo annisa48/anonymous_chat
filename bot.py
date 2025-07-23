@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 from typing import Dict, Set, Optional, List
 import hashlib
 
-from aiogram import Bot, Dispatcher, executor, types, F
+from aiogram import Bot, Dispatcher, types, F
 from aiogram.types import (
     Message, CallbackQuery, InlineKeyboardMarkup, 
     InlineKeyboardButton, BotCommand, ChatMemberUpdated
